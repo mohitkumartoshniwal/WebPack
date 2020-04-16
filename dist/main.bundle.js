@@ -129,7 +129,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ \"./src/component.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\ndocument.body.appendChild(Object(_component__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ \"./src/component.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _image_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./image-component */ \"./src/image-component.js\");\n\n\n\ndocument.body.appendChild(Object(_component__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -142,6 +142,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  var text = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : \"Hello webpack\";\n  var element = document.createElement(\"p\");\n  element.innerHTML = text;\n  return element;\n});\n\n//# sourceURL=webpack:///./src/component.js?");
+
+/***/ }),
+
+/***/ "./src/image-component.js":
+/*!********************************!*\
+  !*** ./src/image-component.js ***!
+  \********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _image_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./image.png */ \"./src/image.png\");\n\nvar img = document.createElement(\"img\");\nimg.src = _image_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\ndocument.body.appendChild(img);\n\n//# sourceURL=webpack:///./src/image-component.js?");
+
+/***/ }),
+
+/***/ "./src/image.png":
+/*!***********************!*\
+  !*** ./src/image.png ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"a1af828b4e65d37668e1fc1ed3ff99d3.png\");\n\n//# sourceURL=webpack:///./src/image.png?");
 
 /***/ }),
 
