@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const  { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -43,5 +44,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: "Webpack Output",
         }),
+        new CleanWebpackPlugin()
     ],
 };
